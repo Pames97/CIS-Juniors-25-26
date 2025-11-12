@@ -1,0 +1,41 @@
+/* TODO: Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* TODO: Style the nav element */
+nav {
+    background-color: #6604b0;
+    padding: 1rem;
+}
+
+/* TODO: Make nav-container a flex conainer */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* TODO: Style the logo */
+.logo {
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* TODO: Remove bullet points from nav-menu */
+.nav-menu {
+    list-style: none;
+}
+
+/* TODO: Make nav-menu a flex container */
+.nav-menu {
+    display: flex;
+}

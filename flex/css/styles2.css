@@ -16,7 +16,7 @@ nav {
     padding: 1rem;
 }
 
-/* TODO: Make nav-container a flex conainer */
+/* TODO: Make nav-container a flex container */
 .nav-container {
     display: flex;
     justify-content: space-around;

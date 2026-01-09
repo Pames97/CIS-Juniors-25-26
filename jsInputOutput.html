@@ -165,13 +165,17 @@
             let hobbyValue = document.getElementById('hobby').value;
             let messageValue = document.getElementById('message').value;
 
-            document.getElementById('displayname').textcontent = "nameValue";
-            document.getElementById('displayage').textcontent = "ageValue";
-            document.getElementById('displayhometown').textcontent = "hometownValue";
-            document.getElementById('displayhobby').textcontent = "hobbyValue";
-            document.getElementById('displaymessage').textcontent = "messageValue";
+            document.getElementById('displayName').textContent = nameValue;
+            document.getElementById('displayAge').textContent = ageValue;
+            document.getElementById('displayHometown').textContent = hometownValue;
+            document.getElementById('displayHobby').textContent = hobbyValue;
+            document.getElementById('displayMessage').textContent = messageValue;
 
-        })
+            outputDiv.style.display = 'block';
+
+            outputDiv.scrollIntoView({ behavior: 'smooth' })
+
+        });
     </script>
 </body>
 </html>
